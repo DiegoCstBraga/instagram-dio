@@ -1,0 +1,166 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	text-decoration: none;
+	font-family: sans-serif;
+	font-size: 14px;
+}
+
+body{
+	width: 100%;
+	min-height: 100vh;
+	background-color: rgb(243, 243, 243);
+
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: center;
+}
+
+.instagram-wrapper{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 60%;
+	height: 100vh;
+
+}
+
+.instagram-phone{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 50%;
+	height: 100vh;
+}
+
+.instagram-phone img{
+	width: auto;
+	height: 100%;
+}
+
+.instagram-continue {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+
+  min-height: 34rem;
+}
+
+.group {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+
+  background: #fff;
+  width: 100%;
+
+  padding: 2rem 3rem;
+  border: 1px solid lightgray;
+
+  gap: 1.5rem;
+
+  border-radius: 8px;
+}
+
+.group:nth-child(1) {
+  min-height: 19rem;
+}
+
+.instagram-logo {
+  height: 3rem;
+}
+
+.profile-photo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.profile-photo img{
+  height: 6rem;
+}
+
+.instagram-login {
+  background: #0095f6;
+  color: #fff;
+  padding: 8px;
+  border-radius: 4px;
+}
+
+.instagram-logout a {
+  color: #0095f6;
+  font-weight: 300;
+}
+
+.link-blue {
+  color: #0095f6;
+  font-weight: 300;
+}
+
+.mobile-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  
+  gap: 1rem;
+}
+
+#get-app{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+
+  gap: 1rem;
+
+}
+
+#get-app a img{
+  width: 10rem;
+}
+
+@media (max-width: 1360px) {
+  .instagram-wrapper{
+    width: 90%;
+  }
+}
+
+@media (max-width: 720px) {
+  .instagram-phone {
+    display: none;
+  }
+
+  .group {
+    border: 1px solid transparent;
+  }
+
+  .instagram-continue {
+    gap: 1rem;
+  }
+}
+
+@media (max-width: 360px) {
+  body {
+    background: #fff;
+  }
+
+  .group {
+    padding: 0;
+  }
+
+  #get-app{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  
+    gap: 0.5rem;
+  
+  }
+
+}

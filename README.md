@@ -1,10 +1,14 @@
-# Oi, tudo bem? Chegou aqui através do curso, certo? 🙃
+# Instagram Clone UI
 
-Esse é o repositório da nossa aula de Flexbox, na qual vamos fazer a interface de login do Instagram! 
+## Tela inicial do Projeto
 
-### Os requisitos são:
+![Tela inicial da clonagem](.github/homeScreen.png)
 
-* [HTML básico](https://www.w3schools.com/html/)
-* [CSS básico](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
 
-## 🚀 Let's code! 🚀
+## 🧪 Tecnologias
+Esse projeto foi desenvolvido com as seguintes tecnologias:
+- [HTML](https://developer.mozilla.org/pt-BR/docs/Web/HTML)
+- [CSS](https://developer.mozilla.org/pt-BR/docs/Web/HTML)
+
+## 💻 Projeto
+Recriar interface da tela inicial de login do Instagram para aprimorar conceitos de HTML, CSS, flexbox e responsividade
